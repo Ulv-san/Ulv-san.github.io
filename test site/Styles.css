@@ -1,0 +1,72 @@
+﻿body
+{
+    background-color: #f00;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#Page{
+    position: relative;
+    width: 900px;
+    margin:auto;
+    background-color: #4cff00
+}
+#Header{
+    height:80px;
+}
+#Header h1{
+    display: inline-block;
+    position: relative;
+    top: -35px;
+}
+#Header h2{
+    position: absolute;
+    right:20px;
+    top:20px;
+}
+#Menu{
+    position:sticky;
+    top:0px;
+    text-align:center;
+    background-color:#b200ff;
+}
+#Menu a{
+    padding: 5px 5px;
+}
+#Menu a:hover{
+    background-color :#999;
+    color:#EEE;
+}
+#MainMenu{
+    padding:5px;
+    font-size: 1.5em;
+}
+.MenuCurretnPage{
+    background-color: #111;
+    color:#EEE;
+}
+#SubMenu{
+    padding:5px;
+    border-top: solid 1px;
+    font-size: 1.2em;
+}
+#Footer{
+    width:900px;
+    background-color:#DDD;
+    position:fixed;
+    bottom:0px;
+    text-align:center;
+}
+#Content {
+    min-height: 1000px;
+    margin:10px;
+    min-height:1000px;
+    padding-bottom:50px;
+}
+#Content h2{
+    border-bottom:solid 1px;
+}
+.bold{
+    font-weight:bold;
+}
